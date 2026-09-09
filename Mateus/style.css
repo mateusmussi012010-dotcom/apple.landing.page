@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.cabecalho {
+    
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-nav-link {
+    padding: 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho-carrossel{
+    height: 35rem; 
+    background-image: url("/apple-event.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.cabecalho-carrossel-titulo{
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+
+.cabecalho-carrossel-link {
+        color: black;
+        background-color: white;
+        padding: 0.8px;
+        text-decoration: none;
+        border-radius: 2rem;
+        margin-bottom: 3rem;
+    }
